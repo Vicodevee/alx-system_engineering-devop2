@@ -1,1 +1,1 @@
-0x02-shell_redirections
+0x02-shell_redirections task for me as an alx student
