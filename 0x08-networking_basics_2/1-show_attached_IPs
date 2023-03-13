@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Write a Bash script that displays all active IPv4 IPs on the machine it’s executed on.
+#Obviously, the IPs displayed may be different depending on which machine you are running the script on.
+#
+#Note that we can see our localhost IP :)
+ifconfig | grep "inet " | tr ":" " " | awk '{print $3}'
+
