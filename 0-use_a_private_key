@@ -6,6 +6,5 @@
 #Only use ssh single-character flags
 #You cannot use -l
 #You do not need to handle the case of a private key protected by #a passphrase
-#!/bin/bash
-ssh -i ~/.ssh/school ubuntu@54.173.88.192
+ssh -i ~/.ssh/school -o "User=ubuntu" -o "LogLevel=ERROR" -o "StrictHostKeyChecking=no" -o "BatchMode=yes" 54.173.88.192 exit
 
