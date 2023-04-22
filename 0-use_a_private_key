@@ -6,4 +6,6 @@
 #Only use ssh single-character flags
 #You cannot use -l
 #You do not need to handle the case of a private key protected by #a passphrase
-ssh ubuntu@54.173.88.192 -i ~/.ssh/school
+#!/bin/bash
+ssh -i ~/.ssh/school ubuntu@54.173.88.192
+
