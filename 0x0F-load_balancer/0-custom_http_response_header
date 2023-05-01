@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# shellcheck disable=SC2154
+#configures a new Ubuntu machine nginx for fast running
+sudo apt-get update
+sudo apt-get install nginx -y
